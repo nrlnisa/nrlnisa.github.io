@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Contacts</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="infoAboutMe.css">
+        <!-- calling external in js file-->
+        <script src="myContacts.js"></script>
+        
+        <style>
+            /* making a border to make website looks nice */
+            
+            div {
+                background-color: white;
+                width: 500px;
+                border: 8px solid bisque;
+                padding: 50px;
+                margin: 20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <!--different section in my website -->
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="infoAboutMe.html">About Me</a></li>
+                <li><a href="myProjects.html">Project</a></li>
+                <li><a href="myContacts.html">Contact</a></li>
+            </ul>
+         <br>
+         
+        <!-- text about how to contact me -->
+        <h1 style="font-family:Cooper Black;font-size:100%;color:darkolivegreen">
+            ✮⋆˙Do contact me at:
+        </h1>
+        <br>
+        <h2 style="text-align: left; margin-left: 20px; margin-right: 20px; display: flex; justify-content: center; align-items: center; height: 50vh; font-size:100%;font-family: Copper Black;color: darkkhaki"> 
+            <div>
+            Instagram @nnisazn <br>
+            Email nurulnisa6627@gmail.com <br>
+            Address Universiti Sultan Zainal Abidin<br>
+            Kampus Besut <br>
+            Kg.Pengkalan Kubur, Tembila,<br>
+            22200 Besut <br>
+            Terengganu Darul Iman <br>
+            Malaysia <br>
+            </div>
+        </h2>
+    
+        
+        <h1 style="font-family:Cooper Black;font-size:100%;color:darkolivegreen">Text Me Here ✮⋆˙</h1>
+        <!-- create a form to client contact me -->
+        <form id="exampleForm" name="exampleForm" action="" method="get">
+            <table border="1">
+                <tr>
+                    <td><label>Your Name:</label></td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Your Email:</label></td>
+                    <td><input type="text" id="emel" name="emel"></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Subject:</label></td>
+                    <td><input type="text" id="subjek" name="subjek"></td>
+                </tr>
+            
+                <tr>
+                    <td><label>Message:</label></td>
+                    <td><input type="text" id="mesej" name="mesej"></td>
+                </tr>
+            
+                <!--button-->
+                <tr>
+                    <td><input type="submit" id="submitForm" name="submitForm"
+                        value="Send Message"
+                        onClick="return validateForm()"> </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

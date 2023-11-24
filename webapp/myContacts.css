@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 Nov 2023, 11:16:17 am
+    Author     : user
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: soft pink;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+    background-color: beige;
+    }
+
+    li a.active {
+        color: white;
+        background-color: pink;
+    }
+    
+/* insert a picture as the website background */
+body {
+    background-image: url('page.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
